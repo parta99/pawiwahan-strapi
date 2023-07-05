@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "informasis",
+  "info": {
+    "singularName": "informasi",
+    "pluralName": "informasis",
+    "displayName": "Informasi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_informasi": {
+      "type": "integer",
+      "unique": true
+    },
+    "id_tamu": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::guest.guest"
+    },
+    "ucapan_selamat": {
+      "type": "text"
+    }
+  }
+}

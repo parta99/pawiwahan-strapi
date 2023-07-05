@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guests",
+  "info": {
+    "singularName": "guest",
+    "pluralName": "guests",
+    "displayName": "Guest",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_tamu": {
+      "type": "integer",
+      "unique": true
+    },
+    "id_pengantin": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::pengantin.pengantin"
+    },
+    "nama_tamu": {
+      "type": "string"
+    },
+    "alamat_tamu": {
+      "type": "string"
+    },
+    "hubungan_dengan_pengantin": {
+      "type": "string"
+    },
+    "status_kehadiran": {
+      "type": "string"
+    },
+    "jumlah_orang": {
+      "type": "integer"
+    }
+  }
+}

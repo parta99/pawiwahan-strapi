@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "confirmations",
+  "info": {
+    "singularName": "confirmation",
+    "pluralName": "confirmations",
+    "displayName": "Confirmation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_konfirmasi": {
+      "type": "integer",
+      "unique": true
+    },
+    "id_tamu": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::guest.guest"
+    },
+    "tanggapan_kehadiran": {
+      "type": "text"
+    },
+    "jumlah_orang_tamu": {
+      "type": "integer"
+    }
+  }
+}

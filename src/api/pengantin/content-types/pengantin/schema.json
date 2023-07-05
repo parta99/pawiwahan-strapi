@@ -4,7 +4,8 @@
   "info": {
     "singularName": "pengantin",
     "pluralName": "pengantins",
-    "displayName": "Pengantin"
+    "displayName": "Pengantin",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,7 +13,9 @@
   "pluginOptions": {},
   "attributes": {
     "id_pengantin": {
-      "type": "integer"
+      "type": "integer",
+      "unique": true,
+      "default": 0
     },
     "nama_pengantin_pria": {
       "type": "string"

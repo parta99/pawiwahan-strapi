@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "acaras",
+  "info": {
+    "singularName": "acara",
+    "pluralName": "acaras",
+    "displayName": "Acara",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_acara": {
+      "type": "integer",
+      "unique": true
+    },
+    "tanggal_pernikahan": {
+      "type": "date"
+    },
+    "waktu_pernikahan": {
+      "type": "time"
+    },
+    "lokasi_pernikahan": {
+      "type": "text"
+    },
+    "lokasi_resepsi": {
+      "type": "text"
+    },
+    "tema_pernikahan": {
+      "type": "text"
+    }
+  }
+}
