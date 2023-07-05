@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-07-05T15:00:09.732Z"
+    "x-generation-date": "2023-07-05T15:25:26.550Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1600,6 +1600,9 @@
         ],
         "properties": {
           "data": {
+            "required": [
+              "id_informasi"
+            ],
             "type": "object",
             "properties": {
               "id_informasi": {
@@ -1671,6 +1674,9 @@
       },
       "Informasi": {
         "type": "object",
+        "required": [
+          "id_informasi"
+        ],
         "properties": {
           "id_informasi": {
             "type": "integer"

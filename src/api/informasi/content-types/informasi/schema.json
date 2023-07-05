@@ -14,7 +14,9 @@
   "attributes": {
     "id_informasi": {
       "type": "integer",
-      "unique": true
+      "unique": true,
+      "default": 11,
+      "required": true
     },
     "id_tamu": {
       "type": "relation",
