@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * undangan router
+ * pengantin router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::undangan.undangan');
+module.exports = createCoreRouter('api::pengantin.pengantin');

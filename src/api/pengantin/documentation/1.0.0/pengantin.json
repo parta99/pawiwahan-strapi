@@ -1,5 +1,5 @@
 {
-  "/undangans": {
+  "/pengantins": {
     "get": {
       "responses": {
         "200": {
@@ -7,7 +7,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UndanganListResponse"
+                "$ref": "#/components/schemas/PengantinListResponse"
               }
             }
           }
@@ -64,7 +64,7 @@
         }
       },
       "tags": [
-        "Undangan"
+        "Pengantin"
       ],
       "parameters": [
         {
@@ -169,7 +169,7 @@
           }
         }
       ],
-      "operationId": "get/undangans"
+      "operationId": "get/pengantins"
     },
     "post": {
       "responses": {
@@ -178,7 +178,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UndanganResponse"
+                "$ref": "#/components/schemas/PengantinResponse"
               }
             }
           }
@@ -235,23 +235,23 @@
         }
       },
       "tags": [
-        "Undangan"
+        "Pengantin"
       ],
       "parameters": [],
-      "operationId": "post/undangans",
+      "operationId": "post/pengantins",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/UndanganRequest"
+              "$ref": "#/components/schemas/PengantinRequest"
             }
           }
         }
       }
     }
   },
-  "/undangans/{id}": {
+  "/pengantins/{id}": {
     "get": {
       "responses": {
         "200": {
@@ -259,7 +259,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UndanganResponse"
+                "$ref": "#/components/schemas/PengantinResponse"
               }
             }
           }
@@ -316,7 +316,7 @@
         }
       },
       "tags": [
-        "Undangan"
+        "Pengantin"
       ],
       "parameters": [
         {
@@ -330,7 +330,7 @@
           }
         }
       ],
-      "operationId": "get/undangans/{id}"
+      "operationId": "get/pengantins/{id}"
     },
     "put": {
       "responses": {
@@ -339,7 +339,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UndanganResponse"
+                "$ref": "#/components/schemas/PengantinResponse"
               }
             }
           }
@@ -396,7 +396,7 @@
         }
       },
       "tags": [
-        "Undangan"
+        "Pengantin"
       ],
       "parameters": [
         {
@@ -410,13 +410,13 @@
           }
         }
       ],
-      "operationId": "put/undangans/{id}",
+      "operationId": "put/pengantins/{id}",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/UndanganRequest"
+              "$ref": "#/components/schemas/PengantinRequest"
             }
           }
         }
@@ -487,7 +487,7 @@
         }
       },
       "tags": [
-        "Undangan"
+        "Pengantin"
       ],
       "parameters": [
         {
@@ -501,7 +501,7 @@
           }
         }
       ],
-      "operationId": "delete/undangans/{id}"
+      "operationId": "delete/pengantins/{id}"
     }
   }
 }

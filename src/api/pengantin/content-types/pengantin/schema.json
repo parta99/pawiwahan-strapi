@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pengantins",
+  "info": {
+    "singularName": "pengantin",
+    "pluralName": "pengantins",
+    "displayName": "Pengantin"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_pengantin": {
+      "type": "integer"
+    },
+    "nama_pengantin_pria": {
+      "type": "string"
+    },
+    "nama_pengantin_wanita": {
+      "type": "string"
+    },
+    "alamat_pengantin_pria": {
+      "type": "text"
+    },
+    "alamat_pengantin_wanita": {
+      "type": "text"
+    }
+  }
+}

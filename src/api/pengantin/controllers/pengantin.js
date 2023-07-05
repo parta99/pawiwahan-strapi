@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * undangan controller
+ * pengantin controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::undangan.undangan');
+module.exports = createCoreController('api::pengantin.pengantin');
